@@ -1,9 +1,7 @@
-.navbar li {
-  display: inline-block;
+nav {
+  background-color: aquamarine;
 }
 
-
-
-.navbar-right {
+.navbar li {
   display: inline-block;
 }
