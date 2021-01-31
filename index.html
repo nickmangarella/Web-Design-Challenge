@@ -3,13 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Weather Data</title>
+    <title>Latitude</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
 </head>
 
 <body>
+
+    <!-- navbar -->
+        <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Latitude</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown show">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" 
+                aria-haspopup="true" aria-expanded="false">Plots<span class='carat'></span></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="visualizations/max_temp.html">Max Temperature</a></li>
+                    <li><a class="dropdown-item" href="visualizations/humidity.html">Humidity</a></li>
+                    <li><a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a></li>
+                    <li><a class="dropdown-item" href="visualizations/wind_speed.html">Wind Speed</a></li>
+                </ul>
+            </li>
+            <li>
+            <a href="comparisons.html">Comparisons</a>
+            </li>
+            <li>
+            <a href="data.html">Data</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
 
 </body>
 </html>
