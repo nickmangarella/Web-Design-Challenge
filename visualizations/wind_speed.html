@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Latitude</title>
+    <title>Wind Speed vs Latitude</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <link rel="stylesheet" href="$.fn.tooltip.Constructor.VERSION // => "4.0.0>
     <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
@@ -12,7 +12,7 @@
 
     <!-- navbar -->
     <nav class="navbar navbar-default">
-        <a class="navbar-brand" href="index.html">Latitude</a>
+        <a class="navbar-brand" href="../index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,10 +23,10 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 
                     aria-expanded="false">Plots</a>
                     <ul class="dropdown-menu"aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="visualizations/max_temp.html">Max Temperature</a>
-                        <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="visualizations/wind_speed.html">Wind Speed</a>
+                        <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -38,6 +38,37 @@
             </ul>
         </nav>
     </nav>
+
+    <!-- sidebar -->
+    <div class="sidenav">
+        <p>Visualizations</p>
+        <hr>
+        <a href="max_temp.html">
+            <img src="../Resources/assets/images/Fig1.png" width="117px" height="117px">
+        </a>
+        <a href="humidity.html">
+            <img src="../Resources/assets/images/Fig2.png" width="117px" height="117px">
+        </a>
+        <a href="cloudiness.html">
+            <img src="../Resources/assets/images/Fig3.png" width="117px" height="117px">
+        </a>
+        <a href="wind_speed.html">
+            <img src="../Resources/assets/images/Fig4.png" width="117px" height="117px">
+        </a>
+    </div>
+
+    <!-- visualization -->
+    <div class="row">
+        <h1 id="title">Wind Speed</h1>
+        <img id="visuals" src="../Resources/assets/images/Fig4.png">
+        <p class="row" id="sumvis">
+                Interestingly enough all of the cities experienced at least mild wind on this day with quite a few outliers above 25 mph. Many factors play a role 
+            in wind speed especially the usual present local conditions, geographical features of the location, and whether or not storms are present in the area. 
+            Something to note is that the outliers for this visual appear to exist at the outermost latitudes and those near the equator, however the data isn't 
+            conclusive enough to say these latitudes experience inherently higher wind speeds.
+        </p>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
