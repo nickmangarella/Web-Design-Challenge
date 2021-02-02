@@ -102,6 +102,20 @@ h2 {
   display: inline-block;
 }
 
+#data {
+  padding-left: 250px;
+  padding-right: 100px;
+  font-size: 20px;
+  color: aquamarine;
+}
+
+.table-responsive {
+  border-color: aquamarine;
+  padding-left: 300px;
+  color: aquamarine;
+}
+
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
