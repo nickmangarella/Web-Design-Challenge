@@ -9,35 +9,36 @@
 </head>
 
 <body>
-
-    <!-- navbar -->
-    <nav class="navbar navbar-default">
-        <a class="navbar-brand" href="index.html">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-            
-        <nav class="navbar navbar-right" id="navbarSupportedContent">
-            <ul>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 
-                    aria-expanded="false">Plots</a>
-                    <ul class="dropdown-menu"aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="visualizations/max_temp.html">Max Temperature</a>
-                        <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="visualizations/wind_speed.html">Wind Speed</a>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="comparisons.html">Comparisons</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="data.html">Data</a>
-                </li>
-            </ul>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-default">
+            <a class="navbar-brand" href="index.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                
+            <nav class="navbar navbar-right" id="navbarSupportedContent">
+                <ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 
+                        aria-expanded="false">Plots</a>
+                        <ul class="dropdown-menu"aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="visualizations/max_temp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="visualizations/wind_speed.html">Wind Speed</a>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="comparisons.html">Comparisons</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </nav>
         </nav>
-    </nav>
+    </header>
 
     <!-- sidebar -->
     <div class="sidenav">
@@ -60,12 +61,12 @@
     <!-- summary -->
     <div class="row">
         <h1 id="title">Summary</h1>
-        <p class="row" id="sum">
-                The purpose of this project was to compare the changes in weather at many different latitudes up and down the Northern and Southern 
-            Hemispheres. The data consisted of over 500 cities and was sourced from the OpenWeatherMap API. We relied on Matplotlib and Pandas modules to organize the
-            data and create the visualizations. The plots compare max temperature, humidity, cloudiness, and wind speed to each city's latitude. The purpose of this 
-            site is to present the data, visualitions, and analyses we found.
-        </p>
+    <p class="row" id="sum">
+            The purpose of this project was to compare the changes in weather at many different latitudes up and down the northern and southern hemispheres. The 
+        data consisted of over 500 cities and was sourced from the OpenWeatherMap API. We relied on Matplotlib and Pandas modules to organize the data and create 
+        the visualizations. The plots compare max temperature, humidity, cloudiness, and wind speed to each city's latitude. The purpose of this site is to 
+        present the data, visualitions, and analyses we found.
+    </p>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
